@@ -1,0 +1,11 @@
+/target
+**/*.rs.bk
+Cargo.lock
+
+/trash
+
+/assets/font/dr/*
+/assets/font/ut/*
+/assets/font/extract.py
+
+test_dialog.png
