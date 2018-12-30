@@ -14,10 +14,12 @@ pub struct Dialog {
 
     pub x: u16,
     pub y: u16,
+
+    pub is_2x: bool, // required for japanese font to not be squished down
 }
 
 impl Dialog {
-    pub fn new(text: &'static str) -> Dialog {
+    pub fn new(text: &'static str, is_2x: bool) -> Dialog {
         let white = Rgb([255u8, 255u8, 255u8]);
 
         let mut image = RgbImage::new(289, 76);
@@ -47,10 +49,11 @@ impl Dialog {
             image: image,
             current_char: ' ',
             x: 0, y: 0,
+            is_2x,
         }
     }
 
-    pub fn next(&mut self) {
+    pub fn advance_frame(&mut self) {
         unimplemented!();
     }
 }

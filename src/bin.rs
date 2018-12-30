@@ -2,7 +2,8 @@ use ut_dialog::ut::Dialog;
 
 fn main() {
     let dialog = Dialog::new(
-        "* This cheese has been here so  long, a magical crystal has  grown around it."
+        "* This cheese has been here so  long, a magical crystal has  grown around it.",
+        false,
     );
 
     // dialog.next();
