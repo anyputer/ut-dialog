@@ -1,6 +1,6 @@
 # ut-dialog
 
-A **work-in-progress** dialog box generator library based on [toby fox](https://twitter.com/tobyfox/)' [UNDERTALE](https://undertale.com/) and [DELTARUNE](https://www.deltarune.com/), written in Rust.
+A **work-in-progress** dialog box generator library based on [toby fox](https://twitter.com/tobyfox/)' [Undertale](https://undertale.com/) and [Deltarune](https://www.deltarune.com/), written in Rust.
 The goal is to be as accurate as possible to the games they're based on, and to support the original games' text format.
 Eventually, the goal is to also have a simple webapp hosted on [Heroku](https://www.heroku.com/) to use it via a JSON API.
 

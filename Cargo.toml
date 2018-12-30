@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["hyarsan"]
 edition = "2018"
 
-description = "A work-in-progress UNDERTALE dialog box generator library"
+description = "A work-in-progress Undertale dialog box generator library"
 repository = "https://github.com/hyarsan/ut-dialog"
 readme = "README.md"
 keywords = ["image", "generator", "undertale"]
